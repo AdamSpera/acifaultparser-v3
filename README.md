@@ -8,7 +8,7 @@ Script to parse ACI faults into excel spreadsheet
 
 ## Environment
 Required
-* Python 2.7+
+* Python 3
 * argparse
 * xlsxwriter
 
