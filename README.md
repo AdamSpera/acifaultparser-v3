@@ -15,6 +15,9 @@ Required
 # Usage
 You can eitehr put exported 'faultInfo.xml' into the same path with the script or access to APIC to query current fault and get the parsesd spreadsheet.
 
+Run the following in teh same directory as the fault XML file:
+```python3 faultparser_apic.py```
+
 <pre>
 usage: usage: faultparser_apic.py [-h] -s HOST -u USER [-p PASSWORD]
 
