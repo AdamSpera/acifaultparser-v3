@@ -109,7 +109,7 @@ def faultInfoParse(apic=None, username=None, password=None, faultInfo=None):
             row += 1
 
         col = 1
-        for faults in root.findall(indexList[i]):
+        for faults in root.findall('faultSummary'):
             row = 0
             for faultField in fieldList[i]:
                 worksheetList[i].write(col, row, faults.attrib.get(faultField))
